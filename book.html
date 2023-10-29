@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Now</title>
+    <style>
+        
+            body {
+            background-image: url('fitness%20club.jpeg'); /* Replace 'your-background-image.jpg' with the actual image file path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+                
+        }
+
+
+        .container {
+            background-color: #d3d3d3;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        input, select {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Book Now for Fitness Classes</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="class">Select a Class:</label>
+            <select id="class" name="class" required>
+                <option value="kickboxing">Kickboxing</option>
+                <option value="gym">Gym</option>
+                <option value="cardio">Cardio</option>
+                <option value="yoga">Yoga</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+
+            <label for="preferred-time">Preferred Class Time:</label>
+            <input type="time" id="preferred-time" name="preferred-time">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
