@@ -14,7 +14,6 @@
 <body>
     <header>
         <nav>
-            
             <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li class="dropdown">
@@ -29,25 +28,27 @@
                     <a href="cardio.html">Cardio</a>
                   </div>
                 </li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Reach Us</a></li>
                 <li><a href="book.html">Book Now</a></li>
               </ul>
         </nav>
     </header>
     <div id="showcase"></div>
     <section class="main">
-        <h1><img src="logo.png" alt="logo" height="50" width="180"></h1>
+        <h1><img src="logo.png" alt="logo" height="70" width="200"></h1>
         <h2>Welcome to Our Fitness Studio</h2>
         <p>Elevate Your Fitness Journey
 
 Discover a vibrant fitness community at Hype. With expert trainers, diverse classes, and a commitment to your goals, we're here to empower you on your path to health and vitality.
 
-This condensed description highlights the studio's commitment to a supportive community and personalized fitness guidance. You can adapt it to your fitness studio's specific features and values.</p>
+This condensed description highlights the studio's commitment to a supportive community and personalized fitness guidance. You can adapt it to your fitness studio's specific features and values.
+   
+   Whether you're a seasoned athlete or just starting your fitness journey, we offer a welcoming and supportive environment for all. At Hype, we believe in the power of teamwork, motivation, and dedication, and we are committed to helping you transform your life through fitness. Join us and become a part of our fitness family, where we sweat, grow, and celebrate success together. Your fitness journey starts here, and we're excited to be a part of it!</p>
     </section>
     
     <section id="classes">
-        <div class="container">
-        <h2>Our Classes</h2>
+        <div class="contain">
+        <h2 style="color: #f0f0f0">Our Classes</h2>
         <div class="class-card" onclick="redirectToPage('kb.html')">
             <img src="ck.jpeg" alt="Class 1">
             <h3>Kickboxing</h3>
@@ -58,12 +59,12 @@ This condensed description highlights the studio's commitment to a supportive co
             <h3>Yoga</h3>
             <p>Relax and strengthen your mind and body.</p>
         </div>
-        <div class="class-card">
+        <div class="class-card" onclick="redirectToPage('gym.html')">
             <img src="gym.jpg" alt="Class 3">
             <h3>Gym</h3>
             <p>Weight train and increase your body endurance.</p>
         </div>
-        <div class="class-card">
+        <div class="class-card" onclick="redirectToPage('yoga.html')">
             <img src="cardio.jpg" alt="Class 4">
             <h3>Cardio</h3>
             <p>Aerobic workout to reduce body fat.</p>
@@ -84,13 +85,13 @@ This condensed description highlights the studio's commitment to a supportive co
                 <td>Monday (6:00 PM to 7:00 PM)<br>
                 Wednessday (6:00 PM to 7:00 PM) <br>
                 Friday (6:00 PM to 7:00 PM)</td>
-                <td>Kristy Doe</td>
+                <td>Bhupendra Jogi</td>
             </tr>
             <tr>
                 <td>Yoga</td>
                 <td>Monday (7:00 PM to 8:00 PM) <br>
                 Wednessday (7:00 PM to 8:00 PM) </td>
-                <td>John Smith</td>
+                <td>Bhavana Singh</td>
             </tr>
             <tr>
                 <td>Gym</td>
@@ -100,32 +101,73 @@ This condensed description highlights the studio's commitment to a supportive co
             </tr>
             <tr>
                 <td>Cardio</td>
-                <td>Monday - Sunday (4:00 PM - 10:00 PM)
-                </td>
-                <td>Jack Dan</td>
+                <td>Monday - Sunday (4:00 PM - 10:00 PM)</td>
+                <td>Shikha</td>
             </tr>
         </table>
     </section>
     
     <section id="about">
         <div class="box">
-        <h2>About Us</h2>
+        <h2>Our Trainers</h2>
         <p>We are a passionate team dedicated to helping you achieve your fitness goals. Join us on this journey to a healthier lifestyle.</p>
+        <div class="container">
+        <div class="trainer">
+            <img src="yogat.jpg" alt="Trainer A" height="150" width="150">
+            <h2>Bhavana Singh</h2>
+            <div class="description">
+                <p>Yoga Instructor</p>
+                <p>Bhavana is a certified yoga instructor with over 10 years of experience. She specializes in Hatha and Vinyasa yoga, helping her students find inner peace and balance through yoga practice.</p>
+            </div>
+        </div>
+
+        <div class="trainer">
+            <img src="kbt.jpg" alt="Trainer B" height="150" width="150">
+            <h2>Bhupendra Jogi</h2>
+            <div class="description">
+                <p>Kickboxing Coach</p>
+                <p>Bhupendra is a kickboxing expert who brings high-energy workouts to the gym. With a background in martial arts, he'll push you to your limits and help you achieve your fitness goals.</p>
+            </div>
+        </div>
+
+        <div class="trainer">
+            <img src="gymt.jpg" alt="Trainer C" height="150" width="150">
+            <h2>Michael</h2>
+            <div class="description">
+                <p>Gym trainer</p>
+                <p>Michael is dedicated to helping you achieve your fitness goals in the gym. He has extensive knowledge of strength training, weightlifting, and fitness routines to get you in shape.</p>
+            </div>
+        </div>
+
+        <div class="trainer">
+            <img src="cardiot.jpg" alt="Trainer D" height="150" width="150">
+            <h2>Shikha</h2>
+            <div class="description">
+                <p>Cardio Specialist</p>
+                <p>Shikha is passionate about cardiovascular fitness. Whether it's running, cycling, or HIIT, he'll guide you through heart-pounding workouts to improve your endurance and health.</p>
+            </div>
+        </div>
+    </div>
         </div>
     </section>
     
     <section id="contact">
         <div class="box">
-        <h2>Contact Us</h2>
+        <h2>Reach Us</h2>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.9819343826325!2d77.308134!3d28.480090699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce753a1f675b5%3A0xc565ce8de9f1dbcd!2sHype%20The%20Gym..%20SECTOR%2037%20FARIDABAD!5e0!3m2!1sen!2sin!4v1699417321902!5m2!1sen!2sin" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br><br>
         <p>If you have any questions or need assistance, please feel free to contact us.<p>
-        <a href="mailto:info@fitnessstudio.com">info@fitnessstudio.com</a>
+        <a href="mailto:info@fhypegym.com">info@hypegym.com</a>
         </div>
     </section>
     
     <footer>
-        <p>&copy; 2023 Fitness Studio. All rights reserved.</p>
+        <p>&copy; 2023 Hype. All rights reserved.</p>
     </footer>
     
     <script src="script.js"></script>
 </body>
 </html>
+
+

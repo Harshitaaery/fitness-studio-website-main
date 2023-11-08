@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gym</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 18px;
+        margin: 20px;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 20px;
+      }
+      .gallery img {
+        max-width: 100%;
+        height: auto;
+      }
+      form {
+        background-color: #d3d3d3;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center; /* Center-align the content */
+      }
+
+      .input-container {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="tel"],
+      input[type="email"] {
+        width: 80%; /* Make input boxes a bit shorter */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 0 auto; /* Center-align the input boxes */
+      }
+
+      .center-button {
+        text-align: center; /* Center-align the button */
+      }
+
+      button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Gym</h1>
+      <br />
+      <p>
+        Gym workouts are a comprehensive practice that encompass physical
+        fitness, mental well-being, and a sense of personal achievement. Rooted
+        in the modern fitness culture, it involves a diverse range of exercises
+        and training routines. Gym workouts are celebrated for their capacity to
+        improve physical strength, endurance, and overall health, while also
+        serving as a means to alleviate stress and foster mental resilience.
+        They underscore discipline and commitment, serving as a potent tool for
+        enhancing self-confidence and emotional well-being. Going to the gym istgrgghgthhtggde
+        more than just an exercise routine; it's a lifestyle that fosters a
+        profound sense of self-improvement and accomplishment. With millions of
+        enthusiasts worldwide, gym workouts offer versatility and adaptability
+        to suit individual needs, making them an excellent choice for those
+        pursuing holistic wellness and vitality.
+
+        <br /><br />
+        Join our gym and unleash your inner champion!
+      </p>
+    </header>
+
+    <div class="gallery">
+      <img src="G7.jpeg" alt="Gym Image 1" height="400" width="500" />
+      <img src="G2.jpeg" alt="Gym Image 2" height="400" width="500" />
+      <img src="G8.jpeg" alt="Gym Image 3" height="400" width="500" />
+      <img src="G9.jpeg" alt="Gym Image 4" height="400" width="500" />
+      <img src="G5.jpg" alt="Gym Image 5" height="400" width="500" />
+      <img src="G11.jpeg" alt="Gym Image 6" height="400" width="500" />
+    </div>
+
+    <form>
+      <h2>Register Now!</h2>
+      <div class="input-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="input-container">
+        <label for="number">Phone:</label>
+        <input type="tel" id="number" name="number" required />
+      </div>
+      <div class="input-container">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="center-button">
+        <button type="submit">Book Now</button>
+      </div>
+    </form>
+  </body>
+</html>
